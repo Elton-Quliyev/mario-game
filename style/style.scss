@@ -1,0 +1,21 @@
+#mario {
+  position: relative;
+  width: 58px;
+  height: 100px;
+  margin-top: 20%;
+  background-image: url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/mario-sprite.png);
+}
+
+.mario-animation {
+  animation: salam 0.25s steps(2) infinite forwards;
+  
+}
+
+@keyframes salam {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 120px 0;
+  }
+}
